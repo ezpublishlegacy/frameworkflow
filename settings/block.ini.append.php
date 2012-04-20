@@ -3,6 +3,7 @@
 [General]
 AllowedTypes[]=MainContentArea
 AllowedTypes[]=ListedSubitems
+AllowedTypes[]=Related
 
 [MainContentArea]
 Name=Main Content Area
@@ -20,5 +21,11 @@ CustomAttributes[]=limit
 UseBrowseMode[node_id]=true
 ViewList[]=listedsubitems
 ViewName[listedsubitems]=Listed Subitems
+
+[Related]
+Name=Related
+ManualAddingOfItems=enabled
+ViewList[]=related
+ViewName[related]=Related
 
 */ ?>
