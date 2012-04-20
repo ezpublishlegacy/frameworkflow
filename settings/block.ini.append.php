@@ -5,6 +5,7 @@ AllowedTypes[]=MainContentArea
 AllowedTypes[]=ListedSubitems
 AllowedTypes[]=Related
 AllowedTypes[]=ObjectRelation
+AllowedTypes[]=FooterNavigation
 
 [MainContentArea]
 Name=Main Content Area
@@ -40,5 +41,15 @@ CustomAttributeTypes[link_type_button]=checkbox
 UseBrowseMode[node_id]=true
 ViewList[]=objectrelation
 ViewName[objectrelation]=Object Relation
+
+[FooterNavigation]
+Name=Footer Navigation
+ManualAddingOfItems=disabled
+CustomAttributes[]
+CustomAttributes[]=node_id
+CustomAttributes[]=limit
+UseBrowseMode[node_id]=true
+ViewList[]=footernavigation
+ViewName[footernavigation]=FooterNavigation
 
 */ ?>
