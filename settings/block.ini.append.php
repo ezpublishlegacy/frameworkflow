@@ -6,6 +6,7 @@ AllowedTypes[]=ListedSubitems
 AllowedTypes[]=Related
 AllowedTypes[]=ObjectRelation
 AllowedTypes[]=FooterNavigation
+AllowedTypes[]=Menu
 
 [MainContentArea]
 Name=Main Content Area
@@ -51,5 +52,11 @@ CustomAttributes[]=limit
 UseBrowseMode[node_id]=true
 ViewList[]=footernavigation
 ViewName[footernavigation]=FooterNavigation
+
+[Menu]
+Name=Menu
+ManualAddingOfItems=enabled
+ViewList[]=menu
+ViewName[menu]=Menu
 
 */ ?>
