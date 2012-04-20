@@ -13,4 +13,17 @@ AllowedTypes[]=4ZonesLayout1
 [GlobalZoneLayout]
 AvailableForClasses[]=footer
 
+[3ZonesLayout3]
+ZoneTypeName=3 zones (layout 3)
+Zones[]=left
+Zones[]=center
+Zones[]=right
+ZoneName[left]=Left Zone
+ZoneName[center]=Center Zone
+ZoneName[right]=Right Zone
+ZoneThumbnail=3zones_layout3.gif
+Template=3zoneslayout3.tpl
+AvailableForClasses[]=folder
+AvailableForClasses[]=frontpage
+
 */ ?>
