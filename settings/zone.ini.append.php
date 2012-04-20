@@ -10,4 +10,7 @@ AllowedTypes[]=3ZonesLayout2
 AllowedTypes[]=3ZonesLayout3
 AllowedTypes[]=4ZonesLayout1
 
+[GlobalZoneLayout]
+AvailableForClasses[]=footer
+
 */ ?>
