@@ -1,0 +1,47 @@
+============================================================================================
+= Override ini text  README
+============================================================================================
+
+= Description
+--------------------------------------------------------------------------------------------
+These are the settings for the default frameworkflow blocks that need to be added to the siteaccess override.ini.
+
+[block_maincontentarea]
+Source=block/view/view.tpl
+MatchFile=block/maincontentarea.tpl
+Subdir=templates
+Match[type]=MainContentArea
+Match[view]=maincontentarea
+
+[block_listedsubitems]
+Source=block/view/view.tpl
+MatchFile=block/listedsubitems.tpl
+Subdir=templates
+Match[type]=ListedSubitems
+Match[view]=listedsubitems
+
+[block_related]
+Source=block/view/view.tpl
+MatchFile=block/related.tpl
+Subdir=templates
+Match[type]=Related
+Match[view]=related
+
+[block_objectrelation]
+Source=block/view/view.tpl
+MatchFile=block/objectrelation.tpl
+Subdir=templates
+Match[type]=ObjectRelation
+Match[view]=objectrelation
+
+[block_footernavigation]
+Source=block/view/view.tpl
+MatchFile=block/footernavigation.tpl
+Subdir=templates
+Match[type]=FooterNavigation
+
+[block_menu]
+Source=block/view/view.tpl
+MatchFile=block/menu.tpl
+Subdir=templates
+Match[type]=Menu
