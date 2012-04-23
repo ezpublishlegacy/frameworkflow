@@ -1,6 +1,7 @@
 <?php /* #?ini charset="utf-8"?
 
 [General]
+AllowedTypes[]
 AllowedTypes[]=MainContentArea
 AllowedTypes[]=ListedSubitems
 AllowedTypes[]=Related
