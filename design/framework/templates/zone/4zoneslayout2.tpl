@@ -9,7 +9,7 @@
 {/if}
 
 {if and(is_set($zones[1].blocks), $zones[1].blocks|count())}
-{include uri="design:parts/zoneblock.tpl" zone=$zones[0]}
+{include uri="design:parts/zoneblock.tpl" zone=$zones[1]}
 {/if}
 
 {if or($has_bottomleft, $has_bottom_right)}
@@ -17,10 +17,10 @@
 	{if $has_bottomleft}
 	<div class="column">{include uri="design:parts/zoneblock.tpl" zone=$zones[2]}</div>
 	{/if}
-	{if $has_bottom_right}
+	{if $has_bottomright}
 	<div class="column">{include uri="design:parts/zoneblock.tpl" zone=$zones[3]}</div>
 	{/if}
 {/set-block}
 {/if}
 
-{pagedata_merge(hash('sidebar', $sidebar, 'bottomarea', $bottomarea), false(), true())}
+{pagedata_merge(hash('sidebar', $sidebar, 'bottomarea', $bottomarea), false())}

@@ -17,10 +17,10 @@
 	{if $has_bottomleft}
 	<div class="column">{include uri="design:parts/zoneblock.tpl" zone=$zones[2]}</div>
 	{/if}
-	{if $has_bottom_right}
+	{if $has_bottomright}
 	<div class="column">{include uri="design:parts/zoneblock.tpl" zone=$zones[3]}</div>
 	{/if}
 {/set-block}
 {/if}
 
-{pagedata_merge(hash('extrainfo', $extrainfo, 'bottomarea', $bottomarea), false(), true())}
+{pagedata_merge(hash('extrainfo', $extrainfo, 'bottomarea', $bottomarea), false())}

@@ -14,4 +14,4 @@
 {set-block variable='extrainfo'}{include uri="design:parts/zoneblock.tpl" zone=$zones[2]}{/set-block}
 {/if}
 
-{pagedata_merge(hash('sidebar', $sidebar, 'extrainfo', $extrainfo), false(), true())}
+{pagedata_merge(hash('sidebar', $sidebar, 'extrainfo', $extrainfo), false())}

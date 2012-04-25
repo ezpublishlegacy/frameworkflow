@@ -8,4 +8,4 @@
 {include uri="design:parts/zoneblock.tpl" zone=$zones[1]}
 {/if}
 
-{pagedata_merge(hash('sidebar', $sidebar), false(), true())}
+{pagedata_merge(hash('sidebar', $sidebar), false())}
