@@ -1,1 +1,1 @@
-{attribute_view_gui attribute=$node.object.data_map.page}
+{attribute_view_gui attribute=$node.data_map.page}
