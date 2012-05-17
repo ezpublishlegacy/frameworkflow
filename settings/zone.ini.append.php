@@ -8,6 +8,7 @@ AllowedTypes[]=2ZonesLayout2
 AllowedTypes[]=3ZonesLayout1
 AllowedTypes[]=3ZonesLayout2
 AllowedTypes[]=3ZonesLayout3
+AllowedTypes[]=3ZonesLayout4
 AllowedTypes[]=4ZonesLayout1
 AllowedTypes[]=4ZonesLayout2
 
@@ -24,6 +25,19 @@ ZoneName[center]=Center Zone
 ZoneName[right]=Right Zone
 ZoneThumbnail=3zones_layout3.gif
 Template=3zoneslayout3.tpl
+AvailableForClasses[]=folder
+AvailableForClasses[]=frontpage
+
+[3ZonesLayout4]
+ZoneTypeName=3 zones (layout 3)
+Zones[]=top
+Zones[]=center
+Zones[]=right
+ZoneName[top]=Top Zone
+ZoneName[center]=Center Zone
+ZoneName[right]=Right Zone
+ZoneThumbnail=3zones_layout4.gif
+Template=3zoneslayout4.tpl
 AvailableForClasses[]=folder
 AvailableForClasses[]=frontpage
 
